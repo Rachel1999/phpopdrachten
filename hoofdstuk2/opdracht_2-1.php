@@ -1,9 +1,9 @@
 <?php
 /*
  User: Rachel1999
- Date: 5-2-2020
- Time: 14:38
- File: template.php
+ Date: 10-2-2020
+ Time: 11:30
+ File: opdracht_2-1.php
 */
 ?>
 <html lang="en">
@@ -83,5 +83,13 @@
         </li>
     </ul>
 </aside>
+<main id="wrapper">
+    <p>
+        <?php
+            echo "Hello World!";
+        ?>
+    </p>
+    <a href="../index.php">Terug naar hoofdpagina</a>
+</main>
 </body>
 </html>

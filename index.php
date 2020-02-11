@@ -15,14 +15,18 @@
         </title>
     </head>
     <body>
+        <!-- Uitwerkingen PHP opdrachten-->
         <header>
             <h1>
                 <?php echo "Uitwerking van PHP-opdrachten"; ?>
             </h1>
         </header>
+        <!-- Side menu -->
         <aside>
             <h2>Menu</h2>
             <ul>
+
+                <!-- Opdrachten hoofdstuk 2 -->
                 <li>Hoofdstuk 2
                     <ul>
                         <li>
@@ -33,6 +37,8 @@
                         </li>
                     </ul>
                 </li>
+
+                <!-- Opdrachten hoofdstuk 3 -->
                 <li>Hoofdstuk 3
                     <ul>
                         <li>
@@ -46,6 +52,8 @@
                         </li>
                     </ul>
                 </li>
+
+                <!-- Opdrachten hoofdstuk 4 -->
                 <li>Hoofdstuk 4
                     <ul>
                         <li>
@@ -62,6 +70,8 @@
                         </li>
                     </ul>
                 </li>
+
+                <!-- Opdrachten hoofdstuk 5 -->
                 <li>Hoofdstuk 5
                     <ul>
                         <li>
@@ -83,11 +93,15 @@
                 </li>
             </ul>
         </aside>
+
+        <!-- Uitwerkingen -->
         <main id="wrapper">
             <h2>Uitwerkingen</h2>
         </main>
-    <div>
-        <img src="fox.jpg">
-    </div>
+
+        <!-- Foto -->
+        <div>
+            <img src="fox.jpg">
+        </div>
     </body>
 </html>

@@ -73,8 +73,15 @@
             echo "Kan data niet ophalen";
         }
     ?>
-    <br><br>
-    <a href="../index.php">Terug naar hoofdpagina</a>
+    <<p>
+        <!-- link naar hoofdpagina -->
+        <a href="../index.php">Terug naar hoofdpagina</a>
+    </p>
+
+    <!-- Footer -->
+    <?php
+        include "../includes/footer.php";
+    ?>
 </main>
 </body>
 </html>

@@ -73,7 +73,7 @@
             echo "Kan data niet ophalen";
         }
     ?>
-    <<p>
+    <p>
         <!-- link naar hoofdpagina -->
         <a href="../index.php">Terug naar hoofdpagina</a>
     </p>

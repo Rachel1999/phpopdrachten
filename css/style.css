@@ -1,20 +1,26 @@
+/*--------------------- Font Face ---------------------*/
+
+
+/*--------------------- Algemeen ---------------------*/
 body
 {
-    font-family: "Corbel Light ";
+    font-family: "Calibri";
     margin: 0;
     padding: 0;
 }
 
+/*--------------------- Header ---------------------*/
 header
 {
     background-color: rgb(254,140,113);
     height: 100px;
     line-height: 100px;
     text-align: center;
-    font-family: "Lucida Calligraphy";
+    font-family: "Bradley Hand ITC";
     color: white;
 }
 
+/*--------------------- Menu ---------------------*/
 aside
 {
     float: left;
@@ -52,14 +58,28 @@ aside ul li a:hover
     text-decoration: underline;
 }
 
-#wrapper h2
-{
-
-}
-
+/*--------------------- Foto hoofdpagina ---------------------*/
 div img
 {
     margin-top: 20px;
     float: right;
     width: 500px;
+}
+
+/*--------------------- Footer ---------------------*/
+footer
+{
+    clear: both;
+    position: relative;
+    height: 80px;
+    margin-top: -200px;
+    width: 100%;
+    background-color: rgb(254,140,113);
+}
+
+footer p
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }

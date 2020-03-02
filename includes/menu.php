@@ -78,6 +78,9 @@
                 <li>
                     <a href="/phpopdrachten/hoofdstuk3/Instructie/if_else.php">If else</a>
                 </li>
+                <li>
+                    <a href="/phpopdrachten/hoofdstuk4/Instructie/Dates.php">Dates</a>
+                </li>
             </ul>
         </li>
     </ul>

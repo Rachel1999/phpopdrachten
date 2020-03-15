@@ -1,8 +1,8 @@
 <?php
 /*
  User: Rachel1999
- Date:
- Time:
+ Date: 24-2-2020
+ Time: 11:00
  File: opdracht_4-1.php
 */
 ?>

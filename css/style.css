@@ -77,6 +77,20 @@ div img
     width: 500px;
 }
 
+/*--------------------- Opdracht 5.1 FORMULIER ---------------------*/
+#keesKroketTable, #keesKroketTable tr, #keesKroketTable td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(254,140,113);
+    color: whitesmoke;
+}
+
+#keesKroketTable td
+{
+    width: 200px;
+    word-break: break-all;
+}
 /*--------------------- Footer ---------------------*/
 footer
 {

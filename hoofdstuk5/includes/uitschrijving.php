@@ -24,7 +24,7 @@ if (isset($_GET["succesklas"]))
 }
 else
 {
-    $succesklas = "NEE";
+    $succesklas = "Er is niet aangemeld voor de succesklas.";
 }
 
 
@@ -35,7 +35,7 @@ if (isset($_GET["verwijderen"]))
 }
 else
 {
-    $verwijderen = "NEE";
+    $verwijderen = "Gegevens hoeven niet te worden verwijderd.";
 }
 
 ?>

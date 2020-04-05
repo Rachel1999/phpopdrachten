@@ -13,7 +13,7 @@ include "../includes/header.php";
 include "../includes/menu.php";
 ?>
 
-<!-- Uitwerkingen opdracht 4-1 -->
+<!-- Uitwerkingen opdracht 5-2 -->
 <main id="wrapper">
     <!-- Kees Kroket -->
     <h1>

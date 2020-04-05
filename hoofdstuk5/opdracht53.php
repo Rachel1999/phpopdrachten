@@ -89,7 +89,7 @@ include "includes/functions53.php";
                     <label for="infected">Aantal ziekenhuisopnames in je gemeente? *</label>
                 </td>
                 <td>
-                    <input type="text" name="infected" id="infected">
+                    <input type="text" name="infected" id="infected" required>
                 </td>
             </tr>
             <!-- Verzendknop -->

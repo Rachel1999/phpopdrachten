@@ -1,0 +1,23 @@
+body
+{
+    font-family: "Please write me a song";
+}
+
+fieldset
+{
+    width: 100px;
+    border: 1px solid black;
+}
+
+#left
+{
+    float:left;
+    margin-right: 18px;
+}
+
+#right
+{
+    margin-right: 15%;
+}
+
+

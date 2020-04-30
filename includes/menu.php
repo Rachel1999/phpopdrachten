@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!-- Side menu -->
 <aside>
     <h2>Menu</h2>

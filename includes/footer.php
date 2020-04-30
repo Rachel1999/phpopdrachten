@@ -1,5 +1,23 @@
+<?php
+// Opdracht 6.1
+// session_start();
+if (isset($_SESSION['username']))
+{
+    $bezoeker = $_SESSION['username']. "&nbsp;<a href='/phpopdrachten/hoofdstuk6/opdracht6.1/loguit.php'>Loguit</a>";
+}
+else
+{
+    $bezoeker = "onbekende bezoeker". "&nbsp;<a href='/phpopdrachten/hoofdstuk6/opdracht6.1/opdracht61.php'>Login</a>";
+}
+//echo $bezoeker;
+//print vervolgens ook de $bezoeker zodat je de volgende visuele weergave in de pagina ziet
+// Dit heb ik onderaan in de footer gezet
+
+?>
+
 <footer>
         <?php
+
             include "variabelen.php";
 
             // Time
@@ -27,6 +45,7 @@
             }
 
             // Tekst in footer
-            echo "<p>" . $uur ." &copy; " . $year . " " . $name . "</p";
+            echo "<p>" . $uur ." &copy; " . $year . " " . $bezoeker . "</p>";
+
         ?>
 </footer>

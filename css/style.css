@@ -91,6 +91,15 @@ div img
     width: 200px;
     word-break: break-all;
 }
+
+/*--------------------- Opdracht 7.2 JOKE---------------------*/
+#jokeTable, #jokeTable td, #jokeTable th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
 /*--------------------- Footer ---------------------*/
 footer
 {

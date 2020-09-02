@@ -22,6 +22,9 @@
         // Het is belangrijk om in te stellen in welke TimeZone je server zit
         date_default_timezone_set ("Europe/Amsterdam");
 
+        //
+        // strtotime(tomorrow);
+
         // Dag, maand en jaar
         echo date("d-m-Y H:i") . "<br>";
 

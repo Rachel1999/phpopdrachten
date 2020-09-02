@@ -17,7 +17,7 @@ if(isset($_GET['search']))
     $query = "SELECT * FROM joke";
     if(($_GET['search']) == "blondje")
     {
-        $query = "SELECT * FROM joke WHERE joketext LIKE '%blondje%'";
+        $query = "SELECT * FROM joke WHERE joketext LIKE '%blondje%'"; // $_GET in de LIKE
     }
     elseif(($_GET['search']) == "belg")
     {

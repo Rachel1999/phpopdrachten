@@ -12,44 +12,42 @@
 include "../includes/header.php";
 include "../includes/menu.php";
 
-// Variabelen
-$ambulanceComing = $_POST['ambulance'];
-$trafficLightColor = $_POST['color'];
-
-// Hoofdzin, er komt wel of geen ambulance aan
-if($ambulanceComing == "Ja")
+// Als ambulance bestaat
+if(isset($_POST['ambulance']))
 {
-    $ambulance = "een ambulance aan";
+    $ambulanceComing = $_POST['ambulance'];
 }
 else
 {
-    $ambulance = "geen ambulance aan";
+    $ambulanceComing = "";
 }
 
-// De hoofdzin
-echo "<p> Stoplicht staat op " . $trafficLightColor . " en er komt: " . $ambulance . "</p>";
-
+// Als color bestaat
+if(isset($_POST['color']))
+{
+    $trafficLightColor = $_POST['color'];
+}
+else
+{
+    $trafficLightColor = "";
+};
 
 
 // Doorrijden of stoppen?
 if($ambulanceComing == "Nee" && $trafficLightColor == "Groen")
 {
+    echo "<p> Stoplicht staat op " . $trafficLightColor . " en er komt geen ambulance aan</p>";
     echo "<p style='color: green'> U mag doorrijden </p>";
+}
+elseif($ambulanceComing == "Ja" && $trafficLightColor == "Rood" || $trafficLightColor == "Oranje")
+{
+    echo "<p> Stoplicht staat op " . $trafficLightColor . " en er komt een ambulance aan</p>";
+    echo "<p style='color: red'> U moet stoppen </p>";
 }
 else
 {
-    echo "<p style='color: red'> U moet stoppen </p>";
-}
-
-// Als een van de twee buttons niet word aangevinkt dan komt er deze melding
-// DIT WERKT NIET...
-if(empty($ambulanceComing) || empty($trafficLightColor))
-{
     echo "Of stopkleur is onbekend of het is onbekend of de ambulance komt";
 }
-
-// echo print_r($_POST);
-
 
 
 include "../includes/footer.php";
